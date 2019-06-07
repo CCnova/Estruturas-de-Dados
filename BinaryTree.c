@@ -14,6 +14,7 @@ struct node
 //Left-child and Right-Sibling representation
 struct node
 {
+    node *parent;
     node *leftChild;
     node *rightSibling;
     int key;
